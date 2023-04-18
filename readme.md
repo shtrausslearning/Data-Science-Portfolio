@@ -1,6 +1,6 @@
 ![](https://i.imgur.com/n05GiCf.png)
 
-#### DESCRIPTION 📒
+#### DESCRIPTION 📒 
 
 A collection of data science projects which utilise machine / deep learning approaches, summarised in one place
 
