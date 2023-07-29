@@ -1,5 +1,16 @@
 ![](https://i.imgur.com/n05GiCf.png)
 
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3670A0?&logo=python&logoColor=ffffff&style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Jupyter-%23F37725.svg?&logo=jupyter&logoColor=white&style=for-the-badge"/> 
+  <img src="https://img.shields.io/badge/NumPy-%23013243.svg?&logo=numpy&logoColor=white&style=for-the-badge"/> 
+  <img src="https://img.shields.io/badge/pandas-%23130754.svg?logo=pandas&logoColor=white&style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/scikit--learn-%23F89939.svg?&logo=scikit-learn&logoColor=white&style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Plotly-%233F4F75.svg?&logo=plotly&logoColor=white&style=for-the-badge"/> <br>
+</p>
+<br/>
+
 #### DESCRIPTION 📒 
 
 A collection of data science projects which utilise machine / deep learning approaches, summarised in one place
