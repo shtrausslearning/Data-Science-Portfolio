@@ -11,10 +11,12 @@
 </p>
 <br/>
 
-#### DESCRIPTION 📒 
+### DESCRIPTION 📒 
 
 
 A collection of data science projects which utilise machine / deep learning approaches, summarised in one place
+
+If you have any questions, you can get in touch with me on <a href="https://t.me/mldsai_info"><img src="https://img.shields.io/static/v1?&message=Telegram&color=3776AB&logo=Telegram&logoColor=FFFFFF&label=" /></a> !
 
 <br>
 
