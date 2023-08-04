@@ -1,0 +1,16 @@
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/mlmodels/__init__.py
+src/mlmodels/bl_regressor.py
+src/mlmodels/decisiontree_regressor.py
+src/mlmodels/gmm.py
+src/mlmodels/gp_bclassifier.py
+src/mlmodels/gp_regressor.py
+src/mlmodels/gpr_bclassifier.py
+src/mlmodels/kriging_regressor.py
+src/mlmodels.egg-info/PKG-INFO
+src/mlmodels.egg-info/SOURCES.txt
+src/mlmodels.egg-info/dependency_links.txt
+src/mlmodels.egg-info/top_level.txt

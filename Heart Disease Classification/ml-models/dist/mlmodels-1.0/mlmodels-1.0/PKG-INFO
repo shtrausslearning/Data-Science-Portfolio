@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: mlmodels
+Version: 1.0
+Summary: Package for custom machine learning models
+Home-page: https://github.com/shtrausslearning/Machine-Learning/tree/main/class-models
+Author: Andrey Shtrauss
+Author-email: author@example.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/shtrausslearning/Machine-Learning/tree/main/class-models/issues
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
