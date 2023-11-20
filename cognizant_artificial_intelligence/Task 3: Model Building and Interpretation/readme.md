@@ -1,4 +1,4 @@
-### **Task 3: Model Building and Interpretation**
+## **Task 3: Model Building and Interpretation**
 
 You have previously outlined the strategic plan for completing the modeling work based on the problem statement.
 
@@ -13,3 +13,7 @@ Once you’re done with the modeling, summarize your results in a business-frien
 This should take 10-15 minutes.
 
 Estimated time for task completion: 45-60 minutes, depending on your learning style.
+
+## Models 
+
+**modeling_rfbaseline.ipynb** - baseline Random Forest : MAE **0.24**
