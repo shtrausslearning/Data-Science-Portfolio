@@ -1,8 +1,7 @@
 ## **1. Project Background**
 
-Welcome to Sber, glad to see you at our virtual internship!
 
-As I have already said, our department is engaged in liquidity risk management, namely, ensuring the necessary level of funds to achieve Sberbank's strategic business development goals.
+Our department is engaged in liquidity risk management, namely, ensuring the necessary level of funds to achieve Sberbank's strategic business development goals.
 As an intern in our department, your task today will be to learn how to predict the volume of stable client funds without maturities, in this particular case, these are client settlement accounts.
 
 Why is it important? Nominally, all funds on current accounts can be withdrawn from the Bank at any time, and in anticipation of this, the Bank cannot use them in the long / medium term (for example, for issuing loans). It turns out that in such a situation the Bank does not earn anything, but pays customers interest on the funds in their accounts, although not high, but on the scale of the Bank's business, these losses can be significant.
