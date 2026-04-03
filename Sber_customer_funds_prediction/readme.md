@@ -1,13 +1,16 @@
-## **1. Project Background**
+## **1. О проекте**
 
+Сегодня будем учится **прогнозировать объем стабильных средств клиентов без сроков погашения**, в данном конкретном случае это расчетные счета клиентов.
 
-Our department is engaged in liquidity risk management, namely, ensuring the necessary level of funds to achieve Sberbank's strategic business development goals.
-As an intern in our department, your task today will be to learn how to predict the volume of stable client funds without maturities, in this particular case, these are client settlement accounts.
+Почему это важно? Номинально, все средства на расчетных счетах клиенты могут в любой момент забрать из Банка, а в ожидании этого Банк не может их использовать в долгосрочном / среднесрочном плане (например, для выдачи кредитов)
 
-Why is it important? Nominally, all funds on current accounts can be withdrawn from the Bank at any time, and in anticipation of this, the Bank cannot use them in the long / medium term (for example, for issuing loans). It turns out that in such a situation the Bank does not earn anything, but pays customers interest on the funds in their accounts, although not high, but on the scale of the Bank's business, these losses can be significant.
+Получается, что в такой ситуации Банк ничего не зарабатывает, но платит клиентам проценты по средствам на их счетах, пусть и не высокие, но в масштабах бизнеса Банка эти убытки могут быть значительны
 
-But in reality, customer behavior is different, it depends on many factors (behavioral, macroeconomic, competitors' actions, etc.). Clients do not immediately withdraw all their funds from settlement accounts, but keep them there for some time, therefore, in total for all clients, their settlement accounts always have some amount of funds, which, although it changes over time, can be regarded by the Bank as stable and used for issuing loans (and the Bank makes money on this).
+Но в реальности поведение клиентов другое, оно зависит от многих факторов (поведенческих, макроэкономических, действий конкурентов и т.д.). Клиенты не забирают сразу все свои средства с расчетных счетов, а какое-то время их там хранят, поэтому суммарно по всем клиентам на их расчетных счетах всегда находится какой-то объем средств, который хоть и меняется со временем, но может быть расценен Банком как стабильный и использован для выдачи кредитов (а Банк на этом зарабатывает)
 
-The ability to accurately predict the volume and dynamics of a stable balance of funds on current accounts allows the Bank to earn on lending, but at the same time keep the risk that customers can demand these funds back at any time – this is called "liquidity risk management". To do this, an ML model is built to predict a stable balance of funds on customer settlement accounts, associated with models for forecasting markets, macroeconomics, and customer behavior.
+Умение точно прогнозировать объем и динамику стабильного остатка средств на расчетных счетах позволяет Банку зарабатывать на кредитовании, но при этом держать в приемлемых рамках риск того, что клиенты могут в любой момент потребовать эти средства назад – это называется "управление риском ликвидности". Для этого строится ML модель прогнозирования стабильного остатка средств на расчетных счетах клиентов, связанная с моделями прогноза рынков, макроэкономики и поведения клиентов
 
-The scale of the Bank's business is amazing: for key banking products, the share reaches 30-50%, which means tens of millions of customers, trillions of rubles in volume. Increasing the forecast accuracy of just one such model, for example, by 5% or in terms of money by 50 billion rubles, will allow the Bank to earn an additional 1 billion rubles. per year (assuming 5% margin of the banking business).
+Масштабы бизнеса Банка поразительны: по ключевым банковским продуктам доля достигает 30-50%, а это десятки миллионов клиентов, триллионы рублей объемов. Повышение точности прогноза всего одной такой модели, к примеру на 5% или в пересчете на деньги на 50 млрд руб., позволит Банку дополнительно заработать 1 млрд руб. в год (в предположении 5% маржи банковского бизнеса)
+
+В данных у нас представлены подневные данные объема расчетных счетов физических лиц. В отличие от депозита, клиент может снять всю сумму с расчетного счета в любой момент времени без каких-либо «штрафов». Такой продукт называют Undefined Maturity Product – UMP). Однако маловероятно, что все клиенты разом закроют свои счета в Банке. Всегда кто-то снимает деньги, а кто-то пополняет счет – есть некоторый стабильный уровень, ниже которого не опустится суммарный объем расчетных счетов.
+
